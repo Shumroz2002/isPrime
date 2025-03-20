@@ -24,11 +24,11 @@ bool isPrime(int userInput) {
 
     if (factor == 2) {
 
-        printf("It is a Prime Number !\n");
+        printf("%d is a Prime Number !\n", userInput);
         return true;
     }
     else {
-        printf("It is not a Prime Number !\n");
+        printf("%d is not a Prime Number !\n", userInput);
         return false;
     }
 

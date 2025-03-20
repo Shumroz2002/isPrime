@@ -16,8 +16,9 @@
 
 int main() {
 
-
+    
     // PRIME CHECK
+
     testCases(2, true);
     testCases(3, true);
     testCases(5, true);
