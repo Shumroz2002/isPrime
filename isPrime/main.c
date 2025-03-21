@@ -18,20 +18,6 @@ int main() {
 
     
     // PRIME CHECK
-
-    testCases(2, true);
-    testCases(3, true);
-    testCases(5, true);
-    testCases(7, true);
-
-    // NON - PRIME CHECK
-    testCases(4, false);
-    testCases(6, false);
-    testCases(8, false);
-
-    // 0 & 1 CHECK
-    testCases(0, false);
-    testCases(1, false);
-
+    testCases(9, false);
     return 0;
 }

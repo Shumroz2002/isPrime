@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stdbool.h"
+#include <stdbool.h>
 
 bool isPrime(int userInput) {
 
@@ -9,6 +9,7 @@ bool isPrime(int userInput) {
     if (userInput == 0 || userInput == 1 || userInput < 0) {
 
         printf("0, 1, Or Negative Numbers Are Not Prime\nPlease Enter a Positive Integer\n");
+
         
     }
 
