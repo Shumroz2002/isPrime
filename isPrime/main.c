@@ -18,6 +18,6 @@ int main() {
 
     
     // PRIME CHECK
-    testCases(9, false);
+    isPrime(3);
     return 0;
 }
